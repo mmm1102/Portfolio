@@ -599,7 +599,7 @@ main p {
   .burger {
     display: block;
     position: relative;
-    left: 250px;
+    left: 200px;
     top: 20px;
   }
   .burger a{
@@ -623,21 +623,31 @@ main p {
     color: white;
     padding-top: 4rem;
     padding-left: 3rem;
-  
- 
   }
 
   .menu-small li {
-    list-style: none;
-    
+    list-style: none;  
   }
+
   .menu-small a{
     color: #C1ECF2;
   }
+
   .menu-small a:hover{
     color: #C96195;
   }
+
+  /* skill icons*/
+
+  .skill-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:20px
+  
+  }
+
   /* main */
+
   .menu {
     display: none;
   }
@@ -650,17 +660,6 @@ main p {
   .container {
     margin: 0;
   }
-
-  /* .container h2 {
-    width: 50%;
-    margin-top: 50px;
-  } */
-
-  /* .container p {
-    width: 50%;
-    margin-top: 50px;
-    font-size: 3.5rem;
-  } */
 
   /* projects */
 
@@ -685,9 +684,7 @@ main p {
     margin-bottom: 30px;
   }
 
-
   /* forma */
-
 
   .section-form h3 {
     font-size: 2rem;
@@ -700,7 +697,6 @@ main p {
     width: 28rem;
     height: 3rem;
     display: flex;
-
   }
 
   .first-row-form {
@@ -712,7 +708,6 @@ main p {
   }
 
   #poruka_forma {
-
     width: 20rem;
     height: 120px;
   }
